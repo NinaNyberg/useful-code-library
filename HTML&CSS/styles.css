@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(218, 223, 224);
+  margin-top: 14vh;
+}
+
+nav {
+  background-color: cornflowerblue;
+  padding: 1.5em 0.5em;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: bisque;
+}
+
+a:hover {
+  color: coral;
+  transition: 1s;
+}
+
+.etusivu a {
+  font-weight: bold;
+  margin-left: 0.5em;
+}
+
+.muut-linkit a {
+  margin-left: 0.5em;
+}
+
+section {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#eka,
+#toka {
+  margin: 1em 0.5em;
+}
+#toka {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#eka h1,
+#toka h1 {
+  color: cornflowerblue;
+  font-weight: bolder;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+#eka p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#toka p {
+  text-align: center;
+}
+
+#toka img {
+  width: 100%;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  border-radius: 50%;
+}
+
+.footer {
+  background-color: cornflowerblue;
+  padding: 1em 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footer h3 {
+  color: bisque;
+}
+.footer a {
+  margin-top: 0.5em;
+}
