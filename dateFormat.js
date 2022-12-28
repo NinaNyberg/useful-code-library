@@ -2,7 +2,7 @@
 
 const formatter = new Intl.DateTimeFormat('en-GB', {
   year: 'numeric',
-  month: 'long',
+  month: 'long', // or 'short' for shortened name of the month
   day: '2-digit'
 });
 
