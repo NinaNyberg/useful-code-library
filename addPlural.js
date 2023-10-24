@@ -2,6 +2,6 @@
 
 {
   <>
-    {example.age} Year{example.age !== 1 ? 's' : ''}{' '}
+    {example.age} Year{example.age !== 1 ? 's' : ''}
   </>;
 }
