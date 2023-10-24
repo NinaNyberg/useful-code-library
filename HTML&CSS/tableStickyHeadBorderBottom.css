@@ -1,0 +1,5 @@
+/* If border-bottom of the table head (position sticky) disappears on scroll, border-bottom can be replaced with the box-shadow like this: */
+
+th {
+  box-shadow: inset 0 -1px 0 #ffff;
+}
